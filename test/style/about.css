@@ -1,0 +1,30 @@
+.background {
+  background-color: plum;
+}
+
+.aboutTitle {
+  text-align: center;
+  color: palevioletred;
+  font-family: "Merienda One", cursive;
+  margin: 0;
+  font-size: 5em;
+}
+
+.aboutTitle2 {
+  color: palevioletred;
+  font-family: "Merienda One", cursive;
+  text-align: center;
+}
+
+
+.aboutparagraph {
+  color: palevioletred;
+  font-family: "Merienda One", cursive;
+  text-align: center;
+}
+
+.historyTitle {
+  color: palevioletred;
+  font-family: "Merienda One", cursive;
+  text-align: center;
+}
