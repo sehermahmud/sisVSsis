@@ -62,8 +62,8 @@ export default function Footer(props) {
         <Grid
           item
           component={'a'}
-          key={href}
           href={href}
+          key={href}
           rel="noopener noreferrer"
           target="_blank"
         >
