@@ -14,11 +14,6 @@ import Video from './page/Gallery/video';
 import Blog from './page/Blog/blog';
 import About from './page/About/about';
 import Contact from './page/Contact/contact';
-import Movie from './page/Movie/movie';
-import Watch from './page/Movie/watch';
-import Anime from './page/Anime/anime';
-import TicTok from './page/TicTok/tictok';
-import Videos from './page/Videos/videos';
 
 export default function sisVSsis() {
   return (
@@ -38,11 +33,6 @@ export default function sisVSsis() {
         <Route path="/blog" exact component={Blog} />
         <Route path="/about" exact component={About} />
         <Route path="/contact" exact component={Contact} />
-        <Route path="/movie" exact component={Movie} />
-        <Route path="/watch/:id" exact component={Watch} />
-        <Route path="/anime" exact component={Anime} />
-        <Route path="/tictok" exact component={TicTok} />
-        <Route path="/videos" exact component={Videos} />
         <br />
         <br />
         <Footer />
